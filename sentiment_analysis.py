@@ -5,7 +5,7 @@ from azure.core.credentials import AzureKeyCredential
 
 # Authenticate the client using your key and endpoint 
 def authenticate_client():
-    language_key = "9d0e7251889644fda17659b06b67d96a"
+    language_key = ""
     language_endpoint = "https://vox-sentiment.cognitiveservices.azure.com/"
     ta_credential = AzureKeyCredential(language_key)
     text_analytics_client = TextAnalyticsClient(
