@@ -13,14 +13,14 @@ logging.basicConfig(stream=sys.stdout, level=logging.DEBUG,
                     format="%(asctime)s %(message)s", datefmt="%m/%d/%Y %I:%M:%S %p %Z")
 
 # Your subscription key and region for the speech service
-SUBSCRIPTION_KEY = '1753162c30f840f3a96d5f63e565c48b'
-SERVICE_REGION = 'southeastasia'
+SUBSCRIPTION_KEY = ''
+SERVICE_REGION = ''
 
 NAME = "Simple transcription"
 DESCRIPTION = "Simple transcription description"
 
 LOCALE = "hi-in"
-RECORDINGS_CONTAINER_URI = "https://vox11.blob.core.windows.net/vox11"
+RECORDINGS_CONTAINER_URI = ""
 
 MODEL_REFERENCE = None  # guid of a custom model
 
